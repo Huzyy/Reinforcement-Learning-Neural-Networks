@@ -1,9 +1,10 @@
 # Reinforcement-Learning-Algorithms
-In some environments Deep Q-Learning models can overestimate Q-values and perform poorly. Double Q-learning solves this by separating the Q-network and target network which reduces the overestimation and leads to more stable learning.
+In some environments Deep Q-Learning models can overestimate Q-values and perform poorly. Double Q-learning solves this by separating the Q-network and target network which reduces overestimation and leads to more stable learning.
 
 The aim is to perform an empirical comparison of Deep Q-Learning and Double Q-Learning models. These models are evaluated using Taxi-v3 from OpenAI Gym, a reinforcement learning environment where the taxi agent must pick up and drop off customers at the designated locations. The Taxi-v3 environment is tweaked by implementing custom slippery rewards to improve the models accuracy.
 
 ![taxi](https://github.com/user-attachments/assets/b149b215-d2e5-478a-ad8b-4697287ed35c)
+
 Gif from https://www.gymlibrary.dev/environments/toy_text/taxi/
 
 
