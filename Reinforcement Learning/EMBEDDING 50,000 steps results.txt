@@ -1,0 +1,117 @@
+enable_double_dqn=False
+Training for 50000 steps ...
+Interval 1 (0 steps performed)
+5000/5000 [==============================] - 76s 15ms/step - reward: -0.2382
+68 episodes - episode_reward: -17.538 [-50.061, 18.003] - loss: 0.273 - mae: 4.341 - mean_q: 6.222 - mean_eps: 0.438 - prob: 1.000
+
+Interval 4 (15000 steps performed)
+5000/5000 [==============================] - 79s 16ms/step - reward: 0.3219
+156 episodes - episode_reward: 10.161 [-38.546, 19.224] - loss: 0.306 - mae: 5.883 - mean_q: 8.311 - mean_eps: 0.213 - prob: 1.000
+
+Interval 5 (20000 steps performed)
+5000/5000 [==============================] - 81s 16ms/step - reward: 0.9913
+293 episodes - episode_reward: 16.919 [-75.256, 19.493] - loss: 0.375 - mae: 7.888 - mean_q: 10.888 - mean_eps: 0.100 - prob: 1.000
+
+Interval 6 (25000 steps performed)
+5000/5000 [==============================] - 83s 17ms/step - reward: 1.1437
+325 episodes - episode_reward: 17.582 [-15.838, 19.518] - loss: 0.295 - mae: 8.530 - mean_q: 11.717 - mean_eps: 0.100 - prob: 1.000
+
+Interval 7 (30000 steps performed)
+5000/5000 [==============================] - 84s 17ms/step - reward: 1.2336
+344 episodes - episode_reward: 17.936 [12.411, 19.525] - loss: 0.265 - mae: 8.829 - mean_q: 12.123 - mean_eps: 0.100 - prob: 1.000
+
+Interval 8 (35000 steps performed)
+5000/5000 [==============================] - 85s 17ms/step - reward: 1.2227
+343 episodes - episode_reward: 17.830 [12.240, 19.511] - loss: 0.235 - mae: 9.086 - mean_q: 12.458 - mean_eps: 0.100 - prob: 1.000
+
+Interval 9 (40000 steps performed)
+5000/5000 [==============================] - 86s 17ms/step - reward: 1.1892
+336 episodes - episode_reward: 17.684 [8.312, 19.396] - loss: 0.209 - mae: 9.249 - mean_q: 12.679 - mean_eps: 0.100 - prob: 1.000
+
+Interval 10 (45000 steps performed)
+5000/5000 [==============================] - 87s 17ms/step - reward: 1.1830
+done, took 818.941 seconds
+------------------------------------------------------
+Testing for 10 episodes ...
+Episode 1: reward: 19.168, steps: 9
+Episode 2: reward: 18.871, steps: 13
+Episode 3: reward: 18.683, steps: 14
+Episode 4: reward: 19.200, steps: 9
+Episode 5: reward: 18.806, steps: 13
+Episode 6: reward: 18.756, steps: 13
+Episode 7: reward: 18.379, steps: 17
+Episode 8: reward: 18.508, steps: 16
+Episode 9: reward: 18.490, steps: 16
+Episode 10: reward: 18.421, steps: 17
+-------------------------------------------------------
+--Test Performance Summary--
+Total Test Episodes: 10
+Average Reward      : 18.73
+Standard Deviation  : 0.28
+Min Reward          : 18.378923838296693
+Max Reward          : 19.200455133777957
+All Rewards         : [19.16823897209666, 18.871254810944897, 18.683052905576986, 19.200455133777957, 18.80593809890609, 18.756011430230817, 18.378923838296693, 18.50826741243013, 18.49042450364651, 18.42121611059716]
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+enable_double_dqn=True
+
+Training for 50000 steps ...
+Interval 1 (0 steps performed)
+5000/5000 [==============================] - 83s 16ms/step - reward: -0.6494
+50 episodes - episode_reward: -63.894 [-91.731, -7.012] - loss: 0.405 - mae: 2.664 - mean_q: 3.537 - mean_eps: 0.883 - prob: 1.000
+
+Interval 2 (5000 steps performed)
+5000/5000 [==============================] - 80s 16ms/step - reward: -0.4983
+51 episodes - episode_reward: -49.857 [-80.495, -27.042] - loss: 0.599 - mae: 6.710 - mean_q: 9.247 - mean_eps: 0.663 - prob: 1.000
+
+Interval 3 (10000 steps performed)
+5000/5000 [==============================] - 81s 16ms/step - reward: -0.3417
+51 episodes - episode_reward: -33.357 [-46.227, 12.853] - loss: 0.139 - mae: 2.066 - mean_q: 3.067 - mean_eps: 0.438 - prob: 1.000
+
+Interval 4 (15000 steps performed)
+5000/5000 [==============================] - 82s 16ms/step - reward: -0.0744
+73 episodes - episode_reward: -5.100 [-51.825, 19.060] - loss: 0.289 - mae: 3.408 - mean_q: 4.762 - mean_eps: 0.213 - prob: 1.000
+
+Interval 5 (20000 steps performed)
+5000/5000 [==============================] - 84s 17ms/step - reward: 0.3766
+152 episodes - episode_reward: 12.342 [-23.496, 19.400] - loss: 0.459 - mae: 6.284 - mean_q: 8.829 - mean_eps: 0.100 - prob: 1.000
+
+Interval 6 (25000 steps performed)
+5000/5000 [==============================] - 86s 17ms/step - reward: 0.6239
+210 episodes - episode_reward: 14.867 [-21.438, 19.398] - loss: 0.453 - mae: 7.565 - mean_q: 10.455 - mean_eps: 0.100 - prob: 1.000
+
+Interval 7 (30000 steps performed)
+5000/5000 [==============================] - 88s 18ms/step - reward: 1.1603
+329 episodes - episode_reward: 17.643 [6.771, 19.503] - loss: 0.390 - mae: 8.206 - mean_q: 11.331 - mean_eps: 0.100 - prob: 1.000
+
+Interval 8 (35000 steps performed)
+5000/5000 [==============================] - 89s 18ms/step - reward: 1.1835
+333 episodes - episode_reward: 17.755 [8.129, 19.537] - loss: 0.312 - mae: 8.670 - mean_q: 11.934 - mean_eps: 0.100 - prob: 1.000
+
+Interval 9 (40000 steps performed)
+5000/5000 [==============================] - 90s 18ms/step - reward: 1.2319
+344 episodes - episode_reward: 17.904 [11.635, 19.525] - loss: 0.302 - mae: 8.841 - mean_q: 12.166 - mean_eps: 0.100 - prob: 1.000
+
+Interval 10 (45000 steps performed)
+5000/5000 [==============================] - 91s 18ms/step - reward: 1.2089
+done, took 852.963 seconds
+Testing for 10 episodes ...
+Episode 1: reward: 18.834, steps: 13
+Episode 2: reward: 19.091, steps: 10
+Episode 3: reward: 19.113, steps: 10
+Episode 4: reward: 19.507, steps: 6
+Episode 5: reward: 18.682, steps: 14
+Episode 6: reward: 18.720, steps: 14
+Episode 7: reward: 18.704, steps: 14
+Episode 8: reward: 18.907, steps: 12
+Episode 9: reward: 19.141, steps: 10
+Episode 10: reward: 18.874, steps: 12
+
+--Test Performance Summary--
+Total Test Episodes: 10
+Average Reward      : 18.86
+Standard Deviation  : 0.38
+Min Reward          : 18.41175594855886
+Max Reward          : 19.51789076087353
+All Rewards         : [18.789461144160875, 19.51789076087353, 18.572648924759367, 18.99402444338338, 18.41175594855886, 18.457727214425226, 18.497616018725935, 18.73969755898674, 19.397228663422766, 19.23178516629103]
